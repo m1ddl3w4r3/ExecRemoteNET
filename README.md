@@ -14,12 +14,12 @@ http://domain.name/PathToUri
 
 ![ipPort](https://user-images.githubusercontent.com/110354855/198319234-132c214a-2863-4a7e-9906-a7409d11b3d9.png)
 
+# Build
+
+```powershell
+& "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe" ExecRemoteNET.sln /p:Configuration=Release /p:Platform=x64 /verbosity:minimal
+```
 
 # Credits
-All the Credits goes to:  
-
-https://github.com/D1rkMtr/FilelessRemotePE   
-However this repo has been removed.
-
 https://github.com/mez-0/InMemoryNET  
 This is an improved version of this project that supports AMSI & ETW patching and URI parsing
